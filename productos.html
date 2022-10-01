@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="styles.css">
+	<script src="main.js"></script>
+	<title>PRODUCTOS</title>
+</head>
+<body>
+	<div class="container">
+		<div class = "logo"></div>
+		<nav class="nav-main">
+			<ul class="nav-menu">
+				<li>
+					<a href="./index.html">NOSOTROS</a>
+				</li>
+				<li>
+					<a href="./productos.html">PRODUCTOS</a>
+				</li>
+				<li>
+					<a href="./contacto.html">CONTACTO</a>
+				</li>
+			</ul>			
+		</nav>		
+	</div>	
+	<div class="separador"></div>
+	<!-- listado -->
+	<div class="productos-listados">
+		<div class="listado-productos">
+			<div id ="contenedor-cafe" onclick="mostrarcafe();">
+			</div>
+			<div class="texto-cafe">
+				<h1>bebidas</h1>
+			</div>
+			<div id="contenedor-pan" onclick="mostrarpan();">
+			</div>
+			<div class="texto-pan">
+				<h1>panaderia</h1>
+			</div>
+			<div id="contenedor-postre" onclick="mostrarpostre();">
+			</div>
+			<div class="texto-postre">
+				<h1>postres</h1>
+			</div>
+		</div>
+		<div class ="container-productos">
+			<div id="primer-tab">
+				<div id="primerafila-bebidas">
+					<div class="chocolate">
+						<img src="./img/productos.png">
+						<div class="productoTitulo">
+							<p>chocolate</p>
+						</div>
+						<div class="precio">
+							<p>1.500$ COP</p>
+						</div> 
+					</div>
+					<div class="cafe">
+						<img src="./img/productos.png">
+						<div class="productoTitulo">
+							<p>cafe</p>
+						</div>
+						<div class="precio">
+							<p>1.300$ COP</p>
+						</div>
+					</div>
+					<div class="aromatica">
+						<img src="./img/productos.png">
+						<div class="productoTitulo">
+							<p>aromatica</p>
+						</div>
+						<div class="precio">
+							<p>1.000$ COP</p>
+						</div>
+					</div>
+					<div class="aromatica-frutos">
+						<img src="./img/productos.png">
+						<div class="productoTitulo">
+							<p>aromatica frutos</p>
+						</div>
+						<div class="precio">
+							<p>2.000$ COP</p>
+						</div>
+					</div>
+				</div>
+				<div id="segundafila-bebidas">
+					<div class="jugoFresa">
+						<img src="./img/productos.png">
+						<div class="productoTitulo">
+							<p>jugo de fresa</p>
+						</div>
+						<div class="precio">
+							<p>3.000$ COP</p>
+						</div>
+					</div>
+					<div class="jugoMango">
+						<img src="./img/productos.png">
+						<div class="productoTitulo">
+							<p>jugo de mango</p>
+						</div>
+						<div class="precio">
+							<p>3.000$ COP</p>
+						</div>
+					</div>
+					<div class="malteadaChocolate">
+						<img src="./img/productos.png">
+						<div class="productoTitulo">
+							<p>malteada de chocolate</p>
+						</div>
+						<div class="precio">
+							<p>6.000$ COP</p>
+						</div>
+					</div>
+				</div>				
+			</div>
+			<div id="segundo-tab">
+				<div id="primerafila-pan">
+					<div class="panblanco">
+						<img src="./img/productos.png">
+						<div class="productoTitulo">
+							<p>pan blanco tajado</p>
+						</div>
+						<div class="precio">
+							<p>3.500$ COP</p>
+						</div> 
+					</div>
+					<div class="panintegral">
+						<img src="./img/productos.png">
+						<div class="productoTitulo">
+							<p>pan integral granos</p>
+						</div>
+						<div class="precio">
+							<p>6.500$ COP</p>
+						</div> 
+					</div>
+					<div class="panCoco">
+						<img src="./img/productos.png">
+						<div class="productoTitulo">
+							<p>pan de coco</p>
+						</div>
+						<div class="precio">
+							<p>600$ COP</p>
+						</div>
+					</div>
+					<div class="panBrevas">
+						<img src="./img/productos.png">
+						<div class="productoTitulo">
+							<p>pan con brevas</p>
+						</div>
+						<div class="precio">
+							<p>5.000$ COP</p>
+						</div>
+					</div>
+				</div>
+				<div id="segundafila-pan">
+					<div class="panblanco">
+						<img src="./img/productos.png">
+						<div class="productoTitulo">
+							<p>pan con queso</p>
+						</div>
+						<div class="precio">
+							<p>3.500$ COP</p>
+						</div> 
+					</div>
+					<div class="panblanco">
+						<img src="./img/productos.png">
+						<div class="productoTitulo">
+							<p>pan hawaiano</p>
+						</div>
+						<div class="precio">
+							<p>6.500$ COP</p>
+						</div> 
+					</div>
+				</div>
+			</div>
+			<div id="tercer-tab">
+				<div id="primerafila-postre">
+					<div class="mil-hoja">
+						<img src="./img/productos.png">
+						<div class="productoTitulo">
+							<p>mil hoja</p>
+						</div>
+						<div class="precio">
+							<p>4.500$ COP</p>
+						</div> 
+					</div>
+					<div class="espuma-frutas">
+						<img src="./img/productos.png">
+						<div class="productoTitulo">
+							<p>espuma de frutos</p>
+						</div>
+						<div class="precio">
+							<p>6.500$ COP</p>
+						</div>
+					</div>
+					<div class="cupcake">
+						<img src="./img/productos.png">
+						<div class="productoTitulo">
+							<p>cupcake</p>
+						</div>
+						<div class="precio">
+							<p>7.000$ COP</p>
+						</div>
+					</div>
+					<div class="mousse">
+						<img src="./img/productos.png">
+						<div class="productoTitulo">
+							<p>mousse</p>
+						</div>
+						<div class="precio">
+							<p>6.500$ COP</p>
+						</div>
+					</div>
+				</div>
+				<div id="segundafila-postre">	
+					<div class="flan">
+						<img src="./img/productos.png">
+						<div class="productoTitulo">
+							<p>flan</p>
+						</div>
+						<div class="precio">
+							<p>5.500$ COP</p>
+						</div>
+					</div>	
+				</div>
+			</div>	
+		</div>
+	</div>
+	<script>
+		function mostrarcafe(){
+			document.getElementById('primer-tab').style.display = 'block';
+			document.getElementById('segundo-tab').style.display ='none';
+			document.getElementById('tercer-tab').style.display = 'none';
+		}
+		function mostrarpan(){
+			document.getElementById('primer-tab').style.display ='none';
+			document.getElementById('segundo-tab').style.display = 'block';
+			document.getElementById('tercer-tab').style.display = 'none';
+		}
+		function mostrarpostre(){
+			document.getElementById('primer-tab').style.display = 'none';
+			document.getElementById('segundo-tab').style.display = 'none';
+			document.getElementById('tercer-tab').style.display ='block';
+		}	
+	</script>
+	<footer>
+		<div class="segunda-seccion">
+			<div class="contactoDireccion">
+				<p>
+				 CONTACTANOS <br>
+				 calle 1 carrera 2 Centro Bogota D.C <br>
+				 telefono: 5725789
+				</p>
+			</div>
+		</div>
+	</footer>		
+</body>
+</html>
